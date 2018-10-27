@@ -8,3 +8,5 @@ LABEL maintainer="mmatiaschek@gmail.com"
 FROM ubuntu:18.04
 RUN apt-get update && apt-get install -y git npm
 RUN npm install -g firestore-backup-restore
+
+ENTRYPOINT [ "firestore-backup-restore" ]
