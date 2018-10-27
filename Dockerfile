@@ -1,4 +1,4 @@
-LABEL maintainer="mmatiaschek@gmail.com"
+#LABEL maintainer="mmatiaschek@gmail.com"
 
 #FROM alpine:3.8
 #RUN apk add npm git
